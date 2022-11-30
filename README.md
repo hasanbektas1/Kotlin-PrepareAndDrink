@@ -13,6 +13,6 @@
 - ViewBinding
 - ScrollView
 
-Bu projemde internet üzerindeki içcecekler ile ilgili verileri çekip uygulamam üzerinde ilk ekranda içeceklerin isimleri gösterilmektedir detay ekranında ise seçilen içeceğin nasıl hazırlanacağı gösterilmektedir.
+Bu projemde internet üzerindeki içecekler ile ilgili verileri çekip, uygulamam üzerinde ilk ekranda içeceklerin isimleri, detay ekranında ise seçilen içeceğin nasıl hazırlanacağı gösterilmektedir.
 
 
