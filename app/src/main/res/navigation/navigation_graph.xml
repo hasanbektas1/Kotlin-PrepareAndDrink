@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/drinkFragment">
+
+    <fragment
+        android:id="@+id/drinkFragment"
+        android:name="com.hasanbektas.DrinkFragment"
+        android:label="fragment_drink"
+        tools:layout="@layout/fragment_drink" >
+        <action
+            android:id="@+id/action_drinkFragment_to_prepareFragment"
+            app:destination="@id/prepareFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prepareFragment"
+        android:name="com.hasanbektas.PrepareFragment"
+        android:label="fragment_prepare"
+        tools:layout="@layout/fragment_prepare">
+        <action
+            android:id="@+id/action_prepareFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment" />
+        <argument
+            android:name="list"
+            app:argType="string[]" />
+        <argument
+            android:name="liste"
+            app:argType="com.hasanbektas.prepareanddrink.DrinkData" />
+    </fragment>
+</navigation>
