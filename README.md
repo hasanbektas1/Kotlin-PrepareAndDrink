@@ -12,6 +12,7 @@
 - RecyclerView
 - ViewBinding
 - ScrollView
+- Picasso
 
 Bu projemde internet üzerindeki içecekler ile ilgili verileri çekip, uygulamam üzerinde ilk ekranda içeceklerin isimleri, detay ekranında ise seçilen içeceğin nasıl hazırlanacağı gösterilmektedir.
 
